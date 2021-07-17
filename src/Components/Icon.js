@@ -10,7 +10,7 @@ const Icon = ({choice})=>{
         case "circle":
             return <FaRegCircle />;
         default: 
-            return <FaPen />;
+            return "";
     }
 }
 export default Icon

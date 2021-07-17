@@ -81,7 +81,7 @@ const App = () => {
                         </h1>
                         <Button onClick={playAgain}> Play Again </Button>
                         <h5> Game-Version: 1.0.1 </h5>
-                        <h6> Game-Version: 1.0.1Developer Contact : anshu1409man@gmail.com </h6>
+                        <h6> Developer Contact : anshu1409man@gmail.com </h6>
                         </div>
                     ) : (
 

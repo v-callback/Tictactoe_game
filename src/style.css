@@ -1,9 +1,21 @@
 .icon{
-    color: white;
-    font-size: 80px;
+    color: red;
+    font-size: 50px;
 }
 
 body{
-    background-color: lightseagreen;
+    background: lightseagreen; background: -webkit-linear-gradient(to right, #70e1f5, #ffd194); background: linear-gradient(to right, #70e1f5, #ffd194);
 
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.box{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
